@@ -1,0 +1,19 @@
+// BC44 判断整数奇偶性
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    while((scanf("%d", &n)) != EOF)
+    {
+        if  (n % 2 == 0)
+        {
+            printf("Even\n");
+        }
+        else
+        {
+            printf("Odd\n");
+        }
+    }
+    return 0;
+}
